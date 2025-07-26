@@ -7,9 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [v0.1.0] - 2025-07-26
 
+### Added
+- GitHub Actions CI/CD pipeline for automated deployment
+- GitHub Pages deployment configuration
+- Professional Git workflow with main/develop branch strategy
+
 ### Changed
 - Updated project name in package.json to "it-talent-development-portfolio"
 - Bumped version to 0.1.0 for initial release
+- Configured Vite for GitHub Pages deployment with proper base path
+- Updated .gitignore to include VS Code tasks.json
 
 ## [Initial Setup] - 2025-07-26
 
