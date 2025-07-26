@@ -16,17 +16,19 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>IT Talent Development Manager</h1>
+      <p className="subtitle">Building High-Performance Technology Teams</p>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+          Years of Experience: {count + 10}
         </button>
         <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+          Professional portfolio showcasing leadership in IT talent development, 
+          team building, and strategic technology initiatives.
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        Welcome to my professional portfolio - Click above to see experience growth
       </p>
     </>
   )

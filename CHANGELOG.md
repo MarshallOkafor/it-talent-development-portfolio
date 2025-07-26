@@ -5,6 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v0.1.1] - 2025-07-26
+
+### Added
+- Complete testing infrastructure with Vitest and React Testing Library
+- Professional IT Talent Development Manager branding and content
+- Comprehensive test suite with 7 test cases covering component functionality
+- Professional gradient styling for headings and buttons
+- Experience counter feature with professional messaging
+
+### Changed
+- Transformed default Vite template into professional portfolio homepage
+- Updated main heading to "IT Talent Development Manager"
+- Enhanced button functionality to show years of experience
+- Improved styling with professional color scheme and typography
+- Updated test suite to match new professional content
+
 ## [v0.1.0] - 2025-07-26
 
 ### Added
