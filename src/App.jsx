@@ -1,36 +1,55 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Navigation from './components/layout/Navigation'
+import HeroSection from './components/sections/HeroSection'
+import Section from './components/sections/Section'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>IT Talent Development Manager</h1>
-      <p className="subtitle">Building High-Performance Technology Teams</p>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          Years of Experience: {count + 10}
-        </button>
-        <p>
-          Professional portfolio showcasing leadership in IT talent development, 
-          team building, and strategic technology initiatives.
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Welcome to my professional portfolio - Click above to see experience growth
-      </p>
-    </>
+    <div className="App">
+      <Navigation />
+      
+      <HeroSection />
+      
+      <Section id="about" title="About Me" background="light">
+        <div className="section-placeholder">
+          <h3>Professional Background</h3>
+          <p>
+            Experienced IT Talent Development Manager with a proven track record of building 
+            high-performance technology teams and implementing strategic talent development initiatives.
+          </p>
+        </div>
+      </Section>
+      
+      <Section id="services" title="Services" background="dark">
+        <div className="section-placeholder">
+          <h3>IT Talent Development Services</h3>
+          <p>
+            Comprehensive consultancy services including talent acquisition strategy, 
+            team development programs, leadership coaching, and organizational development.
+          </p>
+        </div>
+      </Section>
+      
+      <Section id="experience" title="Experience" background="light">
+        <div className="section-placeholder">
+          <h3>Professional Experience</h3>
+          <p>
+            Over a decade of experience in IT leadership, talent management, and 
+            organizational development across various industries and company sizes.
+          </p>
+        </div>
+      </Section>
+      
+      <Section id="contact" title="Get In Touch" background="gradient">
+        <div className="section-placeholder">
+          <h3>Contact Information</h3>
+          <p>
+            Ready to discuss your IT talent development needs? Let's connect and 
+            explore how we can build your high-performance technology team together.
+          </p>
+        </div>
+      </Section>
+    </div>
   )
 }
 
