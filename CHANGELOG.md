@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Iteration 2: Branding & Layout Fixes] - 2025-07-28
+
+### Changed
+- Updated company branding from "Marshall Okafor" to "Bethany Schanfarber Consulting"
+- Fixed horizontal overflow issue causing black section on right side of page
+- Improved layout responsiveness and prevented horizontal scrolling
+
+### Fixed
+- Layout alignment issue that was causing 20% black background section on the right
+- Horizontal overflow problems in navigation, hero section, and main application
+- Updated test suite to reflect new company branding
+
 ## [Iteration 1: Navigation & Architecture] - 2025-07-28
 
 ### Added

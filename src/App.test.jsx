@@ -10,7 +10,7 @@ describe('App', () => {
 
   it('displays the navigation', () => {
     render(<App />)
-    expect(screen.getByText('Marshall Okafor')).toBeInTheDocument()
+    expect(screen.getByText('Bethany Schanfarber Consulting')).toBeInTheDocument()
     expect(screen.getByText('IT Talent Development')).toBeInTheDocument()
   })
 

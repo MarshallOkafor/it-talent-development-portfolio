@@ -35,7 +35,7 @@ const Navigation = () => {
     <nav className={`navigation ${isScrolled ? 'scrolled' : ''}`}>
       <div className="nav-container">
         <div className="nav-brand">
-          <h2>Marshall Okafor</h2>
+          <h2>Bethany Schanfarber Consulting</h2>
           <span>IT Talent Development</span>
         </div>
         
