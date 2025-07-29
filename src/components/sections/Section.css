@@ -3,6 +3,10 @@
   min-height: 80vh;
   display: flex;
   align-items: center;
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+  box-sizing: border-box;
 }
 
 .section.light {
@@ -22,6 +26,8 @@
   max-width: 1200px;
   margin: 0 auto;
   width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .section-title {

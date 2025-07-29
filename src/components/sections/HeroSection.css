@@ -17,6 +17,8 @@
   gap: 4rem;
   align-items: center;
   box-sizing: border-box;
+  overflow-x: hidden;
+  padding: 0 1rem;
 }
 
 .hero-content h1 {
